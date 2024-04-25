@@ -159,7 +159,7 @@ Rezza is an application that allows you to create an 'Uber for X' type of app si
 
 I created a parser supported by Pest. This parser parses PEG into an rust object.
 
-### Migrate AWS services
+### AWS service migration
 
 I have completely migrated all cloud services from EC2 to Lightsail.
 
