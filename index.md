@@ -61,7 +61,7 @@ Award in Discussion contest in American embassy
 
 - Splunk, Sentry, Garfana, Promethus
 
-# Artificial intelligence
+## Artificial intelligence
 
 `Languages`
 
@@ -116,13 +116,13 @@ Award in Discussion contest in American embassy
 
 ### Product Service
 
-- To efficiently facilitate the rapid search of various variants of a product item, I conducted research and leveraged the Algolia service. Here’s what I implemented:
+To efficiently facilitate the rapid search of various variants of a product item, I conducted research and leveraged the Algolia service. Here is what I implemented:
 
-* Snapshot Push to Algolia`:
+- Snapshot Push to Algolia:
   - I created a background worker that runs daily.
   - This worker retrieves snapshot information for each variant and pushes it to Algolia.
   - By doing so, Algolia is kept up-to-date with the latest variant data.
-* API for Mobile Retrieval:
+- API for Mobile Retrieval:
   - Additionally, I developed an API specifically for mobile devices.
   - After receiving search results from Algolia, this API allows mobile clients to retrieve detailed information for each variant.
   - Algolia has proven to be an effective solution for enhancing search performance and providing real-time data access.
