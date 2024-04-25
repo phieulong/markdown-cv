@@ -26,16 +26,39 @@ Award in Discussion contest in American embassy
 
 ## Skills
 
+### Web Developer
+
+`languages`
+
 - Java, Golang, Rust
+
+`Framework/Lib`
+
 - Spring Boot, Nginx, Tokio-
-- MySql, PostgresQl-
-- Restful API, Graphql-
-- Kafka, Redis-
-- GIT, CI/CD-
-- Docker, AWS-
-- Automation test, BDD, TDD-
-- Performance Test-
-- Linux, Vim-
+
+`Database`
+
+- MySql, PostgresQl
+
+`Message Queues`
+
+- Kafka, Redis
+
+`DevOps`
+
+- Docker, AWS
+
+`Test`
+
+- Automation test, BDD, TDD
+- Performance Test
+
+`OS`
+
+- Linux, Vim
+
+`Monitor`
+
 - Splunk, Sentry, Garfana, Promethus
 
 ## Work Experience
