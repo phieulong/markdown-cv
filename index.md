@@ -24,6 +24,20 @@ GPA: 2.6
 `2016`
 Award in Discussion contest in American embassy
 
+## Skills
+
+- Java, Golang, Rust
+- Spring Boot, Nginx, Tokio-
+- MySql, PostgresQl-
+- Restful API, Graphql-
+- Kafka, Redis-
+- GIT, CI/CD-
+- Docker, AWS-
+- Automation test, BDD, TDD-
+- Performance Test-
+- Linux, Vim-
+- Splunk, Sentry, Garfana, Promethus
+
 ## Work Experience
 
 `2016-2017 FPT`
