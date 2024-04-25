@@ -33,7 +33,7 @@ Award in Discussion contest in American embassy
 
 `Languages`
 
-- Java, Golang, Rust
+- Java, Golang, Rust, Elixir
 
 `Framework/Lib`
 
@@ -159,9 +159,13 @@ Rezza is an application that allows you to create an 'Uber for X' type of app si
 
 I created a parser supported by Pest. This parser parses PEG into an rust object.
 
+### Migrate AWS services
+
+I have completely migrated all cloud services from EC2 to Lightsail.
+
 ### AiPricing
 
-I and my co-worker collected data from websites that offer AI services or rent GPUs for deploying AI models. Additionally, I researched how to calculate the number of tokens processed and generated within a specific time frame by a GPU and a pre-trained model. Based on this, we built a price comparison website for running or training models from various providers.
+I and my co-worker collected data from websites that offer AI services or rent GPUs for deploying AI models. Additionally, I researched how to calculate the number of tokens processed and generated within a specific time frame by a GPU and a pre-trained model. Based on this, we built a price comparison website for running or training models from various providers. We used the Elixir programming language for development and Fly.io to deploy.
 
 <!-- ### Footer
 
