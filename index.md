@@ -37,7 +37,7 @@ Award in Discussion contest in American embassy
 
 `Framework/Lib`
 
-- Spring Boot, Nginx, Tokio-
+- Spring Boot, Nginx, Tokio
 
 `Database`
 
@@ -51,9 +51,13 @@ Award in Discussion contest in American embassy
 
 - Redis
 
+`Version control`
+
+- Gitlab, Github
+
 `DevOps`
 
-- Gitlab, Github, CI/CD, Docker, AWS
+- CI/CD, Docker, AWS
 
 `Test`
 
