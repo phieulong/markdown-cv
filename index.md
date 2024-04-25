@@ -94,7 +94,8 @@ Award in Discussion contest in American embassy
 
 `2019-2020`
 
-- Apply micro service architecture with Spring Boot to build Scan and Go
+- Build VinID services.
+- Apply micro service architecture with Spring Boot.
 - User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
 - Use platform to build app: Gitlab, Docker, K8s
 
@@ -102,13 +103,16 @@ Award in Discussion contest in American embassy
 
 `2020-2021`
 
-- Build new payment gateway using design pattern: Orchestrator, Chain, Strategy, Factory,..
+- Build new payment gateway using design pattern:
+  - Orchestrator
+  - Strategy
+  - Factory
 
 ### One Mount Consumer
 
 `2021-2022`
 
-- Build social services to serve ecommerce: comment, reactions, ...
+- Build social services to serve e-commerce: comment, reactions.
 - Applied server send event to push comment near real time
 - Maintain loyalty customer services
 
@@ -141,11 +145,11 @@ In this project, my co-workers and I implemented an abstraction layer for order 
 
 ### Chat
 
-I am the primary backend developer for this project. I have created two services: Comment and Notification. The Comment service is responsible for recording comment and chat content, and subsequently sending messages upon successful creation. The Notification service listens for events and pushes notifications to clients via Server-Sent Events (SSE). Additionally, the Notification service provides an API for clients to subscribe and receive notifications during conversations or videos.
+I was the primary backend developer for this project. I have created two services: Comment and Notification. The Comment service is responsible for recording comment and chat content, and subsequently sending messages upon successful creation. The Notification service listens for events and pushes notifications to clients via Server-Sent Events (SSE). Additionally, the Notification service provides an API for clients to subscribe and receive notifications during conversations or videos.
 
 ### Loyalty Customer
 
-I am the leader of a backend developer team and have been entrusted with the customer care system. My main responsibilities include monitoring and, along with my fellow fresher colleagues, running marketing campaigns and fixing bugs. The core technology in this system is Kafka Flow, which handles event reception, filtering, and computation based on available information and predefined event structures. Microservices are built around this technology to create campaigns, define event structures, and allow consumers to listen for events from Kafka Flow to distribute rewards or points to users
+I was the leader of a backend developer team and have been entrusted with the customer care system. My main responsibilities include monitoring and, along with my fellow fresher colleagues, running marketing campaigns and fixing bugs. The core technology in this system is Kafka Flow, which handles event reception, filtering, and computation based on available information and predefined event structures. Microservices are built around this technology to create campaigns, define event structures, and allow consumers to listen for events from Kafka Flow to distribute rewards or points to users
 
 ### Rezza
 
