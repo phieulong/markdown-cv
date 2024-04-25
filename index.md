@@ -20,8 +20,11 @@ GPA: 2.6
 ## Awards
 
 `2013`
+
 3rd prize of Nghe An provincial in information technology excellent student contest.
+
 `2016`
+
 Award in Discussion contest in American embassy
 
 ## Skills
@@ -42,11 +45,15 @@ Award in Discussion contest in American embassy
 
 `Message Queues`
 
-- Kafka, Redis
+- Kafka
+
+`Caching`
+
+- Redis
 
 `DevOps`
 
-- Github, CI/CD, Docker, AWS
+- Gitlab, Github, CI/CD, Docker, AWS
 
 `Test`
 
@@ -61,11 +68,11 @@ Award in Discussion contest in American embassy
 
 - Splunk, Sentry, Garfana, Promethus
 
-## Artificial intelligence
+### Artificial intelligence
 
 `Languages`
 
-- python
+- Python
 
 `Framework/lib`
 
