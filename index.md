@@ -9,7 +9,7 @@ Software Engineer, FPT University
 
 ## Research interests
 
-Web developer, artificial intelligence.
+Web developer, artificial intelligence
 
 ## Education
 
@@ -28,7 +28,7 @@ Award in Discussion contest in American embassy
 
 ### Web Developer
 
-`languages`
+`Languages`
 
 - Java, Golang, Rust
 
@@ -46,7 +46,7 @@ Award in Discussion contest in American embassy
 
 `DevOps`
 
-- Docker, AWS
+- Github, CI/CD, Docker, AWS
 
 `Test`
 
@@ -60,6 +60,16 @@ Award in Discussion contest in American embassy
 `Monitor`
 
 - Splunk, Sentry, Garfana, Promethus
+
+# Artificial intelligence
+
+`Languages`
+
+- python
+
+`Framework/lib`
+
+- Pytorch, Onnx
 
 ## Work Experience
 
@@ -97,6 +107,25 @@ Award in Discussion contest in American embassy
 - Ai pricing research
 - Build ai cost web
 - Study fast.ai course
+
+## Projects
+
+### Order Service
+
+- I have created a new API to retrieve a list of orders. The API allows searching based on various criteria and utilizes cursor pagination to enhance search efficiency1.
+
+### Product Service
+
+- To efficiently facilitate the rapid search of various variants of a product item, I conducted research and leveraged the Algolia service. Here’s what I implemented:
+
+* Snapshot Push to Algolia`:
+  - I created a background worker that runs daily.
+  - This worker retrieves snapshot information for each variant and pushes it to Algolia.
+  - By doing so, Algolia is kept up-to-date with the latest variant data.
+* API for Mobile Retrieval:
+  - Additionally, I developed an API specifically for mobile devices.
+  - After receiving search results from Algolia, this API allows mobile clients to retrieve detailed information for each variant.
+  - Algolia has proven to be an effective solution for enhancing search performance and providing real-time data access.
 
 <!-- ### Footer
 
