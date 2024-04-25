@@ -127,6 +127,14 @@ To efficiently facilitate the rapid search of various variants of a product item
   - After receiving search results from Algolia, this API allows mobile clients to retrieve detailed information for each variant.
   - Algolia has proven to be an effective solution for enhancing search performance and providing real-time data access.
 
+### Payment Gateway
+
+Due to the company"s anticipated need to support multiple payment methods in the future, adjustments are necessary for the order service to facilitate easier configuration. In this project, my co-workers and I implemented an abstraction layer for order payment by building an additional service orchestration. This orchestration coordinates payment flows, allowing the order service to call it instead of directly invoking the payment service as previously done.
+
+### Chat Service
+
+I am the primary backend developer for this project. I have created two services: Comment and Notification. The Comment service is responsible for recording comment and chat content, and subsequently sending messages upon successful creation. The Notification service listens for events and pushes notifications to clients via Server-Sent Events (SSE). Additionally, the Notification service provides an API for clients to subscribe and receive notifications during conversations or videos.
+
 <!-- ### Footer
 
 Last updated: May 2013 -->
