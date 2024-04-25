@@ -7,17 +7,17 @@ title: Nguyen Quang Nhat's CV
 
 Software Engineer, FPT University
 
-# Research interests
+## Research interests
 
 Web developer, artificial intelligence.
 
-# Education
+## Education
 
 `2015-2019`
 FPT University
 GPA: 2.6
 
-# Awards
+## Awards
 
 `2013`
 President, _Royal Society_, London, UK
