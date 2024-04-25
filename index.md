@@ -40,26 +40,36 @@ Award in Discussion contest in American embassy
 
 ## Work Experience
 
-`2016-2017 FPT`
+### FPT
+
+`2016-2017`
 
 - Develop a web to study online for FPT University
 
-`2019-2020 VinID`
+### VinID
+
+`2019-2020`
 
 - Apply micro service architecture with Spring Boot to build Scan and Go
 - User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
 - Use platform to build app: Gitlab, Docker, K8s
 
-`2020-2021 OneID`
+### OneID
+
+`2020-2021`
 
 - Build new payment gateway using design pattern: Orchestrator, Chain, Strategy, Factory,..
 
-`2021-2023 One Mount Consumer`
+### One Mount Consumer
+
+`2021-2023`
 
 - Build social services to serve ecommerce: comment, reactions, ...
 - Applied server send event to push comment near real time
 
-`2023-present Vuadu`
+### Vuadu
+
+`2023-present`
 
 - Ai pricing research
 - Build ai cost web
