@@ -1,91 +1,68 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Nguyen Quang Nhat's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
 
-<div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
-</div>
+# Nguyen Quang Nhat
 
+Software Engineer, FPT University
 
-## Currently
+# Research interests
 
-Standing on the shoulders of giants
+Web developer, artificial intelligence.
 
-### Specialized in
+# Education
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+`2015-2019`
+FPT University
+GPA: 2.6
 
+# Awards
 
-### Research interests
+`2013`
+President, _Royal Society_, London, UK
+`2016`
+Award in Discussion contest in American embassy
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+# Work Experience
 
+## FPT
 
-## Education
+`2016-2017`
 
-`1654-1660`
-__The King's School, Grantham.__
+- Develop a web to study online for FPT University
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+## VinID
 
-- Sizar
+`2019-2020`
 
-`1667 - death`
-__Trinity College, Cambridge__
+- Apply micro service architecture with Spring Boot to build Scan and Go
+- User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
+- Use platform to build app: Gitlab, Docker, K8s
 
-- Fellow
+## OneID
 
+`2020-2021`
 
+- Build new payment gateway using design pattern: Orchestrator, Chain, Strategy, Factory,..
 
-## Awards
+## One Mount Consumer
 
-`2012`
-President, *Royal Society*, London, UK
+`2021-2023`
 
-Associate, *French Academy of Science*, Paris, France
+- Build social services to serve ecommerce: comment, reactions, ...
+- Applied server send event to push comment near real time
 
+## Vuadu
 
+`2023-present`
 
-## Publications
+- Ai pricing research
+- Build ai cost web
+- Study fast.ai course
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
 Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
 
 <!-- ### Footer
 
 Last updated: May 2013 -->
-
-
