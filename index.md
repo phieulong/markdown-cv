@@ -88,7 +88,7 @@ Award in Discussion contest in American embassy.
 
 `2016-2017`
 
-- Develop a internal web for an Japan bank.
+- Develop an internal web for an Japan bank.
 
 ### VinID
 
