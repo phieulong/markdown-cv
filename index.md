@@ -11,6 +11,7 @@ Software Engineer, FPT University
 
 `email`
 phieulong97@gmail.com
+
 `phone number`
 0837060716
 
