@@ -25,7 +25,7 @@ GPA: 2.6
 
 `2016`
 
-Award in Discussion contest in American embassy
+Award in Discussion contest in American embassy.
 
 ## Skills
 
@@ -80,7 +80,7 @@ Award in Discussion contest in American embassy
 
 `Framework/lib`
 
-- Pytorch, Onnx
+- Pytorch, SpeechBrain, Onnx
 
 ## Work Experience
 
@@ -88,7 +88,7 @@ Award in Discussion contest in American embassy
 
 `2016-2017`
 
-- Develop a web to study online for FPT University
+- Develop a internal web for an Japan bank.
 
 ### VinID
 
@@ -97,7 +97,7 @@ Award in Discussion contest in American embassy
 - Build VinID services.
 - Apply micro service architecture with Spring Boot.
 - User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
-- Use platform to build app: Gitlab, Docker, K8s
+- Use platform to build app: Gitlab, Docker, K8s.
 
 ### OneID
 
@@ -113,16 +113,17 @@ Award in Discussion contest in American embassy
 `2021-2022`
 
 - Build social services to serve e-commerce: comment, reactions.
-- Applied server send event to push comment near real time
-- Maintain loyalty customer services
+- Applied server send event to push comment near real time.
+- Maintain loyalty customer services.
 
 ### Vuadu
 
 `2023-present`
 
-- Ai pricing research
-- Build ai cost web
-- Study fast.ai course
+- Ai pricing research.
+- Build ai cost web.
+- Convert pytorch model to onnx model.
+- Study fast.ai course.
 
 ## Projects
 
@@ -149,11 +150,11 @@ I was the primary backend developer for this project. I have created two service
 
 ### Loyalty Customer
 
-I was the leader of a backend developer team and have been entrusted with the customer care system. My main responsibilities include monitoring and, along with my fellow fresher colleagues, running marketing campaigns and fixing bugs. The core technology in this system is Kafka Flow, which handles event reception, filtering, and computation based on available information and predefined event structures. Microservices are built around this technology to create campaigns, define event structures, and allow consumers to listen for events from Kafka Flow to distribute rewards or points to users
+I was the leader of a backend developer team and have been entrusted with the customer care system. My main responsibilities include monitoring and, along with my fellow fresher colleagues, running marketing campaigns and fixing bugs. The core technology in this system is Kafka Flow, which handles event reception, filtering, and computation based on available information and predefined event structures. Microservices are built around this technology to create campaigns, define event structures, and allow consumers to listen for events from Kafka Flow to distribute rewards or points to users.
 
 ### Rezza
 
-Rezza is an application that allows you to create an 'Uber for X' type of app simply by dragging and dropping the business process. Myself and another backend developer have built an MVP server with basic features such as CRUD for organizations, authentication, and copying process-related features like creation, updating, and execution. We used the Rust programming language for development
+Rezza is an application that allows you to create an 'Uber for X' type of app simply by dragging and dropping the business process. Myself and another backend developer have built an MVP server with basic features such as CRUD for organizations, authentication, and copying process-related features like creation, updating, and execution. We used the Rust programming language for development.
 
 ### Parser
 
@@ -166,6 +167,10 @@ I have completely migrated all cloud services from EC2 to Lightsail.
 ### AiPricing
 
 I and my co-worker collected data from websites that offer AI services or rent GPUs for deploying AI models. Additionally, I researched how to calculate the number of tokens processed and generated within a specific time frame by a GPU and a pre-trained model. Based on this, we built a price comparison website for running or training models from various providers. We used the Elixir programming language for development and Fly.io to deploy.
+
+### Convert model
+
+I have converted pytorch model to onnx which one can run in client instead of server.
 
 <!-- ### Footer
 
