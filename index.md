@@ -28,11 +28,9 @@ GPA: 2.6
 ## Awards
 
 `2013`
-
 3rd prize of Nghe An provincial in information technology excellent student contest.
 
 `2016`
-
 Award in Discussion contest in American embassy.
 
 ## Skills
@@ -40,69 +38,55 @@ Award in Discussion contest in American embassy.
 ### Web Developer
 
 `Languages`
-
-- Java, Golang, Rust, Elixir
+Java, Golang, Rust, Elixir
 
 `Framework/Lib`
-
-- Spring Boot, Nginx, Tokio
+Spring Boot, Nginx, Tokio
 
 `Database`
-
-- MySql, PostgresQl
+MySql, PostgresQl
 
 `Message Queues`
-
-- Kafka
+Kafka
 
 `Caching`
-
-- Redis
+Redis
 
 `Version control`
-
-- Gitlab, Github
+Gitlab, Github
 
 `DevOps`
-
-- CI/CD, Docker, AWS
+CI/CD, Docker, AWS
 
 `Test`
-
-- Automation test, BDD, TDD
+Automation test, BDD, TDD
 - Performance Test
 
 `OS`
-
-- Linux, Vim
+Linux, Vim
 
 `Monitor`
-
-- Splunk, Sentry, Garfana, Promethus
+Splunk, Sentry, Garfana, Promethus
 
 ### Artificial intelligence
 
 `Languages`
-
-- Python
+Python
 
 `Framework/lib`
-
-- Pytorch, SpeechBrain, Onnx
+Pytorch, SpeechBrain, Onnx
 
 ## Work Experience
 
 ### FPT
 
 `2016-2017`
-
-- Develop an internal web for an Japan bank.
+Develop an internal web for an Japan bank.
 
 ### VinID
 
 `2019-2020`
-
-- Build VinID services.
+Build VinID services.
 - Apply micro service architecture with Spring Boot.
 - User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
 - Use platform to build app: Gitlab, Docker, K8s.
@@ -110,7 +94,6 @@ Award in Discussion contest in American embassy.
 ### OneID
 
 `2020-2021`
-
 - Build new payment gateway using design pattern:
   - Orchestrator
   - Strategy
@@ -119,8 +102,7 @@ Award in Discussion contest in American embassy.
 ### One Mount Consumer
 
 `2021-2022`
-
-- Build social services to serve e-commerce: comment, reactions.
+Build social services to serve e-commerce: comment, reactions.
 - Applied server send event to push comment near real time.
 - Maintain loyalty customer services.
 
@@ -128,7 +110,7 @@ Award in Discussion contest in American embassy.
 
 `2023-present`
 
-- Ai pricing research.
+Ai pricing research.
 - Build ai cost web.
 - Convert pytorch model to onnx model.
 - Study fast.ai course.
@@ -137,48 +119,252 @@ Award in Discussion contest in American embassy.
 
 ### Order
 
-- I created a new API to retrieve a list of orders. The API allows searching based on various criteria and utilizes cursor pagination to enhance search efficiency.
+`Description`
+Create a new API to retrieve a list of orders. The API allows searching based on various criteria and utilizes cursor pagination to enhance search efficiency.
+
+`Team size`
+5
+
+`My position`
+Fresher
+
+`My responsibilities`
+Run project.
+- Analyze requirements.
+- Create a new api.
+- Create test cases.
+- Integrate with FE.
+
+`Technologies used`
+Language: Java 1.8,
+- Framework: Springboot
+- API: Restful
+- Architecture: Microservices, Hexagonal.
+- DB: MySql
 
 ### Product
 
-To efficiently facilitate the rapid search of various variants of a product item, I conducted research and leveraged the Algolia service. Here is what I implemented:
+`Description`
+Create new api to efficiently facilitate the rapid search of various variants of a product item.
 
-- I created a background worker that runs daily to snapshot push to Algolia:
-- Additionally, I developed an API specifically for mobile devices.
-  - After receiving search results from Algolia, this API allows mobile clients to retrieve detailed information for each variant.
-  - Algolia has proven to be an effective solution for enhancing search performance and providing real-time data access.
+`Team size`
+3
+
+`My position`
+Fresher
+
+`My responsibilities`
+Analyze requirements.
+- Research about Algolia search engine.
+- Create a background cronjob that runs daily midnight to push snapshot product information to Algolia.
+- Create new an API specifically for mobile devices allows to retrieve detailed information for each variant.
+- Write test case.
+- Integrate with FE.
+- Deploy to production.
+
+`Technologies used`
+Language: Java 1.8,
+- Framework: Springboot
+- Search Engine: Algolia
+- Architecture: Microservices, Hexagonal.
+- DB: MySql
 
 ### Payment
 
-In this project, my co-workers and I implemented an abstraction layer for order payment by building an additional orchestration service. This service coordinates payment flows, allowing the order service to call it instead of directly invoking the payment service as previously done.
+`Description`
+New development of an _orchestration_ microservice (in e-commerce system) includes operations related _Payment_ entity.
+
+`Team size`
+6
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Analyze requirements.
+- Build source base for project.
+- Build CI/CD based on previous project.
+- Write test cases.
+- Write code implement test cases.
+- Review code.
+
+`Technologies used`
+Software development practice: TDD
+- Language: Java 11,
+- Framework: Springboot, Kafka.
+- Architecture: Microservices, Hexagonal.
+- Design pattern: orchestration, strategy.
+- Devops: Docker.
+- DB: MySql
 
 ### Chat
 
-I was the primary backend developer for this project. I have created two services: Comment and Notification. The Comment service is responsible for recording comment and chat content, and subsequently sending messages upon successful creation. The Notification service listens for events and pushes notifications to clients via Server-Sent Events (SSE). Additionally, the Notification service provides an API for clients to subscribe and receive notifications during conversations or videos.
+`Description`
+New development of a microservice (in e-commerce system) includes operations related _Comment_ entity.
+
+`Team size`
+_Only me_
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Analyze requirement as storyboard.
+- Design database and system.
+- Integrate with Devops to get resource permission.
+- Build source base for project.
+- Build CI/CD based on previous project.
+- Write test cases.
+- Write code implement test cases.
+- Integrate with FE members of other team.
+- Integrate with Devops deploy service to stages (test, production).
+
+`Technologies used`
+Software development practice: TDD
+- Language: Java 11.
+- Framework: Springboot, Kafka.
+- Lib: Server send event to push new message from server.
+- Architecture: Microservices, Hexagonal.
+- Design pattern: strategy.
+- Devops: Docker.
+- DB: MySql
 
 ### Loyalty Customer
 
-I was the leader of a backend developer team and have been entrusted with the customer care system. My main responsibilities include monitoring and, along with my fellow fresher colleagues, running marketing campaigns and fixing bugs. The core technology in this system is Kafka Flow, which handles event reception, filtering, and computation based on available information and predefined event structures. Microservices are built around this technology to create campaigns, define event structures, and allow consumers to listen for events from Kafka Flow to distribute rewards or points to users.
+`Description`
+Team leader in maintaining a loyalty system.
+
+`Team size`
+4
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Receive completely loyalty system.
+- Monitor.
+- Run campaign from marketing.
+- Fix bugs.
+- Develop new features.
+
+`Technologies used`
+Software development practice: TDD
+- Language: Golang.
+- Framework: Springboot, Apache Flink.
+- Architecture: Microservices, Hexagonal
+- Devops: Docker.
+- DB: MySql
 
 ### Rezza
 
-Rezza is an application that allows you to create an 'Uber for X' type of app simply by dragging and dropping the business process. Myself and another backend developer have built an MVP server with basic features such as CRUD for organizations, authentication, and copying process-related features like creation, updating, and execution. We used the Rust programming language for development.
+`Description`
+Build an new application that allows user to create an 'Uber for X' type of app simply by dragging and dropping the business process
+
+`Team size`
+5
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Analyze requirements.
+- Build an MVP server with basic features such as CRUD for organizations, authentication.
+- Deploy to test stage.
+
+`Technologies used`
+Software development practice: TDD
+- Test practice: Automation.
+- Language: Rust.
+- Framework: Tokio, Oso, Cucumber.
+- Architecture: Microservices, Hexagonal
+- Devops: Docker, Github CI/CD.
+- DB: Postgres.
 
 ### Parser
 
-I created a parser supported by Pest. This parser parses PEG into an rust object.
+`Description`
+Write a parser with PEG lib.
+
+`Team size`
+_Only me_
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Research parser algorithm and Pest lib.
+- Write parser.
+
+`Technologies used`
+Software development practice: TDD
+- Language: Rust.
+- Lib: Pest.
+- Version control: Github.
 
 ### AWS service migration
 
-I have completely migrated all cloud services from EC2 to Lightsail.
+`Description`
+Migrate completely all cloud services from EC2 to Lightsail.
+
+`Team size`
+_Only me_
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Migrate completely all cloud services from Aws EC2 to Aws Lightsail.
+
+`Technologies used`
+Language: Elixir.
+- Devops: Docker swarm, AWS Lightsail, Github Action.
+- Platform: Prometheus, Grafana.
+- Os: Linux.
+- Version control: Github.
 
 ### AiPricing
 
-I and my co-worker collected data from websites that offer AI services or rent GPUs for deploying AI models. Additionally, I researched how to calculate the number of tokens processed and generated within a specific time frame by a GPU and a pre-trained model. Based on this, we built a price comparison website for running or training models from various providers. We used the Elixir programming language for development and Fly.io to deploy.
+`Description`
+Build a new website allow user compare cost of ai.
+
+`Team size`
+2
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Analyze requirements.
+- Research cost ai.
+- Research how a specific gpu compute and generate tokens in inference stage.
+- Research how to quantize params of ai model.
+- Build website to craw data from other website and calculate price.
+- Deploy.
+
+`Technologies used`
+Language: Elixir.
+- Devops: Fly.io.
+- Version control: Github.
 
 ### Convert model
+`Description`
+Convert a pytorch model to run in client instead of server.
 
-I have converted pytorch model to onnx which one can run in client instead of server.
+`Team size`
+_Only me_
+
+`My position`
+Software Engineer.
+
+`My responsibilities`
+Study fast.ai course.
+- Research onnx framework.
+- Convert pytorch model to onnx which one can run in client instead of server.
+
+`Technologies used`
+Language: Python.
+- Framework: Pytorch, Speechbrain, onnx.
+- Version control: Github.
 
 <!-- ### Footer
 
