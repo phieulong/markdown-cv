@@ -15,6 +15,9 @@ phieulong97@gmail.com
 `phone number`
 0837060716
 
+`online cv`
+[Nguyen Quang Nhat's cv](https://phieulong.github.io/markdown-cv/)
+
 ## Research interests
 
 Web developer, artificial intelligence
@@ -283,6 +286,7 @@ Software development practice: TDD
 - Architecture: Microservices, Hexagonal
 - Devops: Docker, Github CI/CD.
 - DB: Postgres.
+- Version control: Github.
 
 ### Parser
 
