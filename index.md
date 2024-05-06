@@ -16,7 +16,7 @@ phieulong97@gmail.com
 0837060716
 
 `online cv`
-[Nguyen Quang Nhat's cv](https://phieulong.github.io/markdown-cv/)
+[](https://phieulong.github.io/markdown-cv/)
 
 ## Research interests
 
