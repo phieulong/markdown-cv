@@ -97,7 +97,6 @@ Build VinID services.
 - Build new payment gateway using design pattern:
   - Orchestrator
   - Strategy
-  - Factory
 
 ### One Mount Consumer
 
@@ -141,6 +140,7 @@ Language: Java 1.8,
 - API: Restful
 - Architecture: Microservices, Hexagonal.
 - DB: MySql
+- Version control: Gitlab.
 
 ### Product
 
@@ -168,11 +168,12 @@ Language: Java 1.8,
 - Search Engine: Algolia
 - Architecture: Microservices, Hexagonal.
 - DB: MySql
+- Version control: Gitlab.
 
 ### Payment
 
 `Description`
-New development of an _orchestration_ microservice (in e-commerce system) includes operations related _Payment_ entity.
+New development of an _orchestrator_ microservice (in e-commerce system) includes operations related _Payment_ entity.
 
 `Team size`
 6
@@ -194,8 +195,9 @@ Software development practice: TDD
 - Framework: Springboot, Kafka.
 - Architecture: Microservices, Hexagonal.
 - Design pattern: orchestration, strategy.
-- Devops: Docker.
+- Devops: Docker, Gitlab CI/CD.
 - DB: MySql
+- Version control: Gitlab.
 
 ### Chat
 
@@ -226,8 +228,9 @@ Software development practice: TDD
 - Lib: Server send event to push new message from server.
 - Architecture: Microservices, Hexagonal.
 - Design pattern: strategy.
-- Devops: Docker.
+- Devops: Docker, Gitlab CI/CD.
 - DB: MySql
+- Version control: Gitlab.
 
 ### Loyalty Customer
 
@@ -254,6 +257,7 @@ Software development practice: TDD
 - Architecture: Microservices, Hexagonal
 - Devops: Docker.
 - DB: MySql
+- Version control: Gitlab.
 
 ### Rezza
 
