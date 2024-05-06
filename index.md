@@ -7,6 +7,13 @@ title: Nguyen Quang Nhat's CV
 
 Software Engineer, FPT University
 
+## Contact
+
+`email`
+phieulong97@gmail.com
+`phone number`
+0837060716
+
 ## Research interests
 
 Web developer, artificial intelligence
