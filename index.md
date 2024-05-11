@@ -44,7 +44,7 @@ Award in Discussion contest in American embassy.
 Java, Golang, Rust, Elixir
 
 `Framework/Lib`
-Spring Boot, Nginx, Tokio
+Spring, Spring Boot, Spring web, Spring Secure, Spring Jpa, Nginx, Tokio
 
 `Database`
 MySql, PostgresQl
@@ -139,7 +139,7 @@ Run project.
 
 `Technologies used`
 Language: Java 1.8,
-- Framework: Springboot
+- Framework: Spring, Springboot, Spring web, Spring jpa
 - API: Restful
 - Architecture: Microservices, Hexagonal.
 - DB: MySql
@@ -167,7 +167,7 @@ Analyze requirements.
 
 `Technologies used`
 Language: Java 1.8,
-- Framework: Springboot
+- Framework: Spring, Springboot, Spring web, Spring JPA
 - Search Engine: Algolia
 - Architecture: Microservices, Hexagonal.
 - DB: MySql
@@ -195,10 +195,10 @@ Analyze requirements.
 `Technologies used`
 Software development practice: TDD
 - Language: Java 11,
-- Framework: Springboot, Kafka.
+- Framework: Spring core, Springboot, Spring Web, Spring secure, Spring JPA, Kafka.
 - Architecture: Microservices, Hexagonal.
 - Design pattern: orchestration, strategy.
-- Devops: Docker, Gitlab CI/CD.
+- Devops: Docker, Gitlab CI.
 - DB: MySql
 - Version control: Gitlab.
 
@@ -227,7 +227,7 @@ Analyze requirement as storyboard.
 `Technologies used`
 Software development practice: TDD
 - Language: Java 11.
-- Framework: Springboot, Kafka.
+- Framework: Spring core, Springboot, Spring web, Spring secure, Spring JPA  Kafka.
 - Lib: Server send event to push new message from server.
 - Architecture: Microservices, Hexagonal.
 - Design pattern: strategy.
@@ -256,7 +256,7 @@ Receive completely loyalty system.
 `Technologies used`
 Software development practice: TDD
 - Language: Golang.
-- Framework: Springboot, Apache Flink.
+- Framework: Springboot, Spring eco, Apache Flink.
 - Architecture: Microservices, Hexagonal
 - Devops: Docker.
 - DB: MySql
