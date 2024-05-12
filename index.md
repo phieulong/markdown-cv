@@ -65,10 +65,13 @@ Automation test, BDD, TDD
 - Performance Test
 
 `OS`
-Linux, Vim
+Linux
 
 `Monitor`
 Splunk, Sentry, Garfana, Promethus
+
+`Text editor`
+Vim
 
 ### Artificial intelligence
 
