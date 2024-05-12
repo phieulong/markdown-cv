@@ -78,6 +78,10 @@ Python
 `Framework/lib`
 Pytorch, SpeechBrain, Onnx
 
+### Language
+
+English
+
 ## Work Experience
 
 ### FPT
@@ -182,7 +186,7 @@ New development of a microservice (in e-commerce system) includes operations rel
 3
 
 `My position`
-Leader, Software Engineer.
+_Leader_, Software Engineer.
 
 `My responsibilities`
 Analyze requirement as storyboard.
@@ -215,7 +219,7 @@ Team leader in maintaining a loyalty system.
 4
 
 `My position`
-Leader, Software Engineer.
+_Leader_, Software Engineer.
 
 `My responsibilities`
 Receive completely loyalty system.
@@ -310,7 +314,7 @@ Build a new website allow user compare cost of ai.
 2
 
 `My position`
-Leader, Software Engineer.
+_Leader_, Software Engineer.
 
 `My responsibilities`
 Analyze requirements.
