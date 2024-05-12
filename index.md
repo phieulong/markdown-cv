@@ -61,8 +61,7 @@ Gitlab, Github
 CI/CD, Docker, AWS
 
 `Test`
-Automation test, BDD, TDD
-- Performance Test
+Automation test, BDD, TDD, K6.
 
 `OS`
 Linux
