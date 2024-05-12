@@ -91,25 +91,12 @@ Develop an internal web for an Japan bank.
 
 ### VinID
 
-`2019-2020`
-Build VinID services.
+`2019-2023`
+Build new and maintain VinID services.
 - Apply micro service architecture with Spring Boot.
-- User 3'rd parties: Kafka,elasticsearch, Algolia, Splunk.
+- Framework: Spring core, Spring web, Spring secure, Spring JPA.
+- 3'rd parties: Kafka, elasticsearch, Algolia, Splunk.
 - Use platform to build app: Gitlab, Docker, K8s.
-
-### OneID
-
-`2020-2021`
-- Build new payment gateway using design pattern:
-  - Orchestrator
-  - Strategy
-
-### One Mount Consumer
-
-`2021-2022`
-Build social services to serve e-commerce: comment, reactions.
-- Applied server send event to push comment near real time.
-- Maintain loyalty customer services.
 
 ### Vuadu
 
@@ -117,8 +104,9 @@ Build social services to serve e-commerce: comment, reactions.
 
 Ai pricing research.
 - Build ai cost web.
-- Convert pytorch model to onnx model.
-- Study fast.ai course.
+- Language: Elixir.
+- Use platform to build app: Fly.io.
+- Framework: Tensor, SpeechBrain, Onnx.
 
 ## Projects
 
