@@ -263,7 +263,7 @@ Software development practice: TDD
 - DB: Postgres.
 - Version control: Github.
 
-### Parser
+<!-- ### Parser
 
 `Description`
 Write a parser with PEG lib.
@@ -282,7 +282,7 @@ Research parser algorithm and Pest lib.
 Software development practice: TDD
 - Language: Rust.
 - Lib: Pest.
-- Version control: Github.
+- Version control: Github. -->
 
 ### AWS service migration
 
@@ -329,7 +329,7 @@ Language: Elixir.
 - Devops: Fly.io.
 - Version control: Github.
 
-### Convert model
+<!-- ### Convert model
 `Description`
 Convert a pytorch model to run in client instead of server.
 
@@ -347,7 +347,7 @@ Study fast.ai course.
 `Technologies used`
 Language: Python.
 - Framework: Pytorch, Speechbrain, onnx.
-- Version control: Github.
+- Version control: Github. -->
 
 <!-- ### Footer
 
