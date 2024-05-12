@@ -26,7 +26,6 @@ Web developer, artificial intelligence
 
 `2015-2019`
 FPT University
-GPA: 2.6
 
 ## Awards
 
@@ -145,34 +144,6 @@ Language: Java 1.8,
 - DB: MySql
 - Version control: Gitlab.
 
-### Product
-
-`Description`
-Create new api to efficiently facilitate the rapid search of various variants of a product item.
-
-`Team size`
-3
-
-`My position`
-Fresher
-
-`My responsibilities`
-Analyze requirements.
-- Research about Algolia search engine.
-- Create a background cronjob that runs daily midnight to push snapshot product information to Algolia.
-- Create new an API specifically for mobile devices allows to retrieve detailed information for each variant.
-- Write test case.
-- Integrate with FE.
-- Deploy to production.
-
-`Technologies used`
-Language: Java 1.8,
-- Framework: Spring, Springboot, Spring web, Spring JPA
-- Search Engine: Algolia
-- Architecture: Microservices, Hexagonal.
-- DB: MySql
-- Version control: Gitlab.
-
 ### Payment
 
 `Description`
@@ -208,10 +179,10 @@ Software development practice: TDD
 New development of a microservice (in e-commerce system) includes operations related _Comment_ entity.
 
 `Team size`
-_Only me_
+3
 
 `My position`
-Software Engineer.
+Leader, Software Engineer.
 
 `My responsibilities`
 Analyze requirement as storyboard.
@@ -244,7 +215,7 @@ Team leader in maintaining a loyalty system.
 4
 
 `My position`
-Software Engineer.
+Leader, Software Engineer.
 
 `My responsibilities`
 Receive completely loyalty system.
@@ -339,7 +310,7 @@ Build a new website allow user compare cost of ai.
 2
 
 `My position`
-Software Engineer.
+Leader, Software Engineer.
 
 `My responsibilities`
 Analyze requirements.
